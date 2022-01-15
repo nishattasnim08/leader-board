@@ -1,0 +1,119 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* fonts */
+/* common css */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f1ff;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: #fff;
+    width: 870px;
+    padding: 30px;
+    margin: 21px 0;
+    border-radius: 5px;
+}
+hr{
+    border: 1px solid #d1d1d1;
+    margin-bottom: 27px;
+}
+/* common css */
+/* top player style */
+.section_title{
+    color: #562eff;
+    font-size: 24px;
+    margin-top: 3px;
+}
+.top_players{
+    margin-bottom: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player_name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+/* top blog css */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display: flex;
+}
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog_info{
+    margin-left: 16px;
+}
+.blog_title{
+    font-size: 20px;
+}
+.blog_author{
+    color: #9f9f9f;
+    font-size: 16px;
+}
+.blog_author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562eff;
+}
+
+/* courses style */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.course{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #888;
+}
+.course .course_banner img{
+    width: 100%;
+    border-radius: 5px;
+    /* height: 104px; */
+}
+.course_details{
+    padding: 5px 20px;
+}
+.course_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #aeaeae;
+}
+.course_duration{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #FF4A60;
+    background-color: #FFE4E8;
+}
